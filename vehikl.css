@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+#wrapper{
+    background-color: rgb(20, 20, 70);
+}
+/*==================(header)=====================*/
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    background-color: rgb(20, 20, 70);
+    z-index: 999;
+    border-bottom: 1px solid grey;
+}
+.vehikl{
+    display: flex;
+}
+.vehikl img {
+    height: 40px;
+    width: 167px;
+}
+.list a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 14px;
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+}
+/*================(web)=====================*/
+.web {
+    text-align: center;
+    padding-top: 14rem;
+    padding-bottom: 15rem;
+    font-size: 31px;
+    color: aliceblue;
+    z-index:0;
+}
+.web{
+   width: 100%;height: 100%;
+    background-image: url(images/group.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 0;top: 0px;
+}
+.web::after {
+  content: ""; 
+  width: 100%;
+  height: 100%; 
+  background-color: rgba(20, 20, 70, 0.601);
+  position: absolute; 
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.web button{
+    border: 1px solid;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 119, 0);
+    color: white;
+}
+/*================(what)=====================*/
+.what{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.line{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line2{
+    border: 2px solid orangered;
+    width: 50px;
+}
+.what p {
+    padding: 10px 477px;
+}
+
+/*================(app)=====================*/
+.app {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 152px;
+    gap: 50px;
+}
+.app p{
+    color: rgba(246, 223, 223, 0.682);
+    padding: 10px 20px 0px 0px;
+}
+.appimg img {
+    height: 340px;
+    width: 570px;
+}
+.app .line2{
+    width: 60px;
+}
+.app1{
+    padding-top: 100px;
+}
+
+/*===================(our clients)======================*/
+.clients{
+    color: white;
+    text-align: center;
+    padding: 200px 500px 100px 500px;
+}
+.clients p{
+    color: rgba(246, 223, 223, 0.682);
+}
+
+
+
+
