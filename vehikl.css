@@ -4,11 +4,13 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
-#wrapper{
+
+#wrapper {
     background-color: rgb(20, 20, 70);
 }
+
 /*==================(header)=====================*/
-.upper{
+.upper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,12 +19,17 @@
     z-index: 999;
     border-bottom: 1px solid grey;
 }
-.vehikl{
+
+.vehikl {
     display: flex;
 }
+
 .vehikl img {
     height: 40px;
     width: 167px;
+}
+.list .home .line2{
+    width: 50px;
 }
 .list a {
     color: aliceblue;
@@ -30,50 +37,62 @@
     padding: 8px;
     font-size: 14px;
 }
-header{
+.list .contact{
+    border: 1px solid rgba(211, 211, 211, 0.259);
+}
+.list .home{
+    color: orangered;
+}
+header {
     width: 100%;
     position: fixed;
     z-index: 5;
 }
+
 /*================(web)=====================*/
 .web {
     text-align: center;
-    
+
     font-size: 31px;
     color: aliceblue;
-    z-index:0;
+    z-index: 0;
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.web h3 span{
+
+.web h3 span {
     color: orangered;
 }
-.web h1{
+
+.web h1 {
     line-height: 1;
     padding-bottom: 30px;
 }
-.web{
+
+.web {
     background-image: url(images/group.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    left: 0;top: 0px;
-}
-.web::after {
-  content: ""; 
-  width: 100%;
-  height: 100%; 
-  background-color: rgba(20, 20, 70, 0.601);
-  position: absolute; 
-  top: 0;
-  left: 0;
-  z-index: -1;
+    left: 0;
+    top: 0px;
 }
 
-.web button{
+.web::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20, 20, 70, 0.601);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.web button {
     border: 1px solid;
     border: none;
     padding: 10px;
@@ -81,23 +100,27 @@ header{
     background-color: rgb(255, 119, 0);
     color: white;
 }
+
 /*================(what)=====================*/
-.what{
+.what {
     text-align: center;
     color: white;
     padding-top: 100px;
     padding-bottom: 100px;
 
 }
-.line{    
+
+.line {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.line2{
+
+.line2 {
     border: 2px solid orangered;
     width: 50px;
 }
+
 .what p {
     padding: 10px 477px;
 }
@@ -110,31 +133,202 @@ header{
     padding: 10px 152px;
     gap: 50px;
 }
-.app p{
+
+.app p {
     color: rgba(246, 223, 223, 0.682);
     padding: 10px 20px 0px 0px;
 }
+
 .appimg img {
     height: 340px;
     width: 570px;
 }
-.app .line2{
+
+.app .line2 {
     width: 60px;
 }
-.app1{
+
+.app1 {
     padding-top: 100px;
 }
 
 /*===================(our clients)======================*/
-.clients{
+.clients {
     color: white;
     text-align: center;
     padding: 200px 500px 100px 500px;
 }
-.clients p{
+
+.clients p {
     color: rgba(246, 223, 223, 0.682);
 }
 
+/*===================(company)=======================*/
+.one {
+    display: flex;
+    gap: 20px;
+    padding: 30px 150px;
+}
 
+.pic img {
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgba(128, 128, 128, 0.566);
+    padding: 15px;
+    color: white;
+}
 
+/*==================(community)===========================*/
+.community .love{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.community .love p{
+    padding: 10px 0 50px 0;
+}
+.community{
+    padding-top: 50px;
+}
+.lara{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    line-height: 2;
+}
+
+/*=================(advisor)========================*/
+.advisor .para {
+    padding: 100px 500px 70px 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.people{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    color: white;
+}
+.box1{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgba(128, 128, 128, 0.438);
+    padding: 20px 100px;
+    line-height: 2;
+}
+.box1 .link a{
+    color: orangered;
+    text-decoration: none;
+    padding: 5px;
+}
+.box1 img{
+    height: 200px;width: 200px;
+    padding-bottom: 10px;
+}
+.box1 p{
+    font-size: 12px;  
+}
+
+/*=============================(meetup)======================*/
+.meetup{
+    padding-top: 100px;
+    color: white;
+}
+.join{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.join p{
+    width: 24rem;
+}
+.gpug{
+    display: flex;
+    gap: 50px;
+    padding: 50px 150px;
+}
+.larvel{
+    border: 1px solid rgba(211, 211, 211, 0.356);
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+.larvel img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    width: 190px;
+    padding: 40px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 23%;
+    margin-bottom: 13px;
+    background-color: rgba(81, 81, 160, 0.353);
+}
+.larvel a{
+    color: orangered;
+    text-decoration: none;
+}
+.larvel .line2{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+/*=========================(sound)==============================*/
+.sound{
+    border-top: 1px solid rgba(128, 128, 128, 0.229);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.229);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.sound button {
+    border: 1px solid;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 119, 0);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*=========================(footer | low)=======================*/
+.v img {
+    height: 45px;
+    width: 165px;
+}
+footer{
+    text-align: center;
+}
+.v{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.social img{
+    padding: 10px;
+}
+footer p{
+    color: white;
+    padding: 20px 0;
+}
 
